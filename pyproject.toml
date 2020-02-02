@@ -25,6 +25,7 @@ depends = ["wpilibc", "wpilib_core", "wpiHal", "ntcore"]
 sources = [
     "adis16740/src/rpy/adis16740.cpp"
 ]
+pp_defines = ["_USE_MATH_DEFINES 1"]
 
 generate = [
     { ADIS16470_IMU = "adi/ADIS16470_IMU.h" },
