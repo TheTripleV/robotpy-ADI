@@ -38,8 +38,8 @@ generation_data = "gen"
 #   and output yaml for them in the directory defined by generation_data
 
 [tool.robotpy-build.metadata]
-name = "robotpy-ADI16740"
-description = "Python Driver Wrapper for ADI ADIS16740 IMU sensor"
+name = "robotpy-adi16470"
+description = "Python Driver Wrapper for ADI ADIS16470 IMU sensor"
 author = "RobotPy Development Team"
 author_email = "robotpy@googlegroups.com"
 url = "https://github.com/robotpy/robotpy-adi"
