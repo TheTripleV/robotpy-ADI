@@ -38,17 +38,17 @@ generation_data = "gen"
 #   and output yaml for them in the directory defined by generation_data
 
 [tool.robotpy-build.metadata]
-name = "robotpy-adi16470"
+name = "robotpy-adis16470"
 description = "Python Driver Wrapper for ADI ADIS16470 IMU sensor"
 author = "RobotPy Development Team"
 author_email = "robotpy@googlegroups.com"
-url = "https://github.com/robotpy/robotpy-adi"
+url = "https://github.com/robotpy/robotpy-adis16470"
 license = "BSD-3-Clause"
 install_requires = [
     "wpilib>=2020.2.2.0,<2021.0.0",
 ]
 
-# robotpy-build create-imports adi adis16470._adis16740
+# robotpy-build create-imports adi adis16470._adis16470
 # To build run python setup.py develop
 # install clcache: https://github.com/frerich/clcache
 # pip install clcache
